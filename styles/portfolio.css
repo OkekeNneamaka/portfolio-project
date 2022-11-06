@@ -1,5 +1,5 @@
 .hero{
-    background-color: #e1daf0;
+    background-color: #f9f7fe;
     text-align: center;
     padding: 100px 30px;
 }
@@ -25,6 +25,7 @@ h1{
 
 p{
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
 
 .btn-contact{
@@ -35,6 +36,3 @@ p{
    
 }
 
-.btn-contact, a{
-    margin-top: 30px;
-}
