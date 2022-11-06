@@ -1,0 +1,40 @@
+.hero{
+    background-color: #e1daf0;
+    text-align: center;
+    padding: 100px 30px;
+}
+
+.hero p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hero h2{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    color: rgb(52, 50, 50);
+}
+
+h1{
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-contact{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+   
+}
+
+.btn-contact, a{
+    margin-top: 30px;
+}
