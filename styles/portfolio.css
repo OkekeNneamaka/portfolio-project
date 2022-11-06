@@ -1,3 +1,15 @@
+h1{
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
 .hero{
     background-color: #f9f7fe;
     text-align: center;
@@ -16,23 +28,21 @@
     color: rgb(52, 50, 50);
 }
 
-h1{
-    color: black;
-    font-weight: bold;
-    font-size: 60px;
-    font-family: 'Playfair Display', serif;
-}
 
-p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-}
 
 .btn-contact{
     background-color: blueviolet;
     color: white;
     border-radius: 4px;
     padding: 10px 20px;
+   
+}
+
+.btn-project{
+    color: blueviolet;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: 1px solid blueviolet;
    
 }
 
