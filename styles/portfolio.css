@@ -57,9 +57,12 @@ p{
     height:auto;
 }
 
-.about-section{
+.content-inner{
     text-align: center;
     padding: 100px 30px;
 }
 
+.content-inner h1{
+    font-size: 46px;
+}
 
