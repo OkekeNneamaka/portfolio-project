@@ -34,15 +34,32 @@ p{
     background-color: blueviolet;
     color: white;
     border-radius: 4px;
-    padding: 10px 20px;
+    padding: 10px 15px;
    
+}
+
+.btn-contact:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
 }
 
 .btn-project{
     color: blueviolet;
     border-radius: 4px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: 1px solid blueviolet;
    
 }
+
+.my-img{
+    width: 300px;
+    height:auto;
+}
+
+.about-section{
+    text-align: center;
+    padding: 100px 30px;
+}
+
 
