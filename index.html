@@ -23,24 +23,32 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Portlio website</title>
+    <meta
+      name="description"
+      content="Nneamaka is Front-end engineer based in Nigeria. She creates user friendly and responsive websites."
+    />
+    <title>Front-end developer - Okeke Nneamaka</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <h2 class="d-none d-lg-block">OkekeNneamaka</h2>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Nneamaka">About</a></li>
+          <li><a href="/work.html" title="Nneamaka's work">Work</a></li>
+          <li>
+            <a href="/contact.html" title="Nneamaka's contact">Contact</a>
+          </li>
         </ul>
       </nav>
       <div class="hero">
         <p>👋Hi, I am</p>
         <h1 class="name">Okeke Nneamaka</h1>
         <h2>Front-end developer based in Nigeria</h2>
-        <a class="btn btn-contact mt-5" href="#">Contact me</a>
+        <a class="btn btn-contact mt-5" href="/contact.html" title="contact me"
+          >Contact me</a
+        >
       </div>
       <p class="m-3 text-center dark">
         Featured Project which my best projects be choice to show
@@ -49,7 +57,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/weather.png"
-            alt="weather app picture"
+            alt="weather app preview"
             class="img-fluid"
           />
         </div>
@@ -61,7 +69,9 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-project">Learn more</a>
+          <a href="/work.html" class="btn btn-project" title="weather project"
+            >Learn more</a
+          >
         </div>
       </div>
       <div class="row mb-5 align-items-center">
@@ -73,19 +83,21 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-project">Learn more</a>
+          <a href="/work.html" title="yoghurt project" class="btn btn-project"
+            >Learn more</a
+          >
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="images/yogurt.png"
-            alt="weather app picture"
+            alt="yoghurt app preview"
             class="img-fluid"
           />
         </div>
       </div>
       <div class="row mb-5 align-items-center">
         <div class="col d-none d-lg-block">
-          <img src="images/yoga.png" alt="yoga app picture" class="img-fluid" />
+          <img src="images/yoga.png" alt="yoga app preview" class="img-fluid" />
         </div>
         <div class="col">
           <h2 class="mb-5">Yoga App</h2>
@@ -95,7 +107,9 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-project">Learn more</a>
+          <a href="/work.html" title="yoga project" class="btn btn-project"
+            >Learn more</a
+          >
         </div>
       </div>
       <footer>
@@ -107,24 +121,34 @@
             <p class="text-muted">Let's work together.</p>
           </div>
           <div>
-            <a href="" class="btn btn-contact">Contact me</a>
+            <a href="/contact.html" class="btn btn-contact" title="Contact me"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <a href="mailto:okekenneamaka09@gmail.com" class="email-link"
+          <a
+            href="mailto:okekenneamaka09@gmail.com"
+            title="Email Nneamaka"
+            class="email-link"
             >okekenneamaka09@gmail.com</a
           >
         </div>
 
         <div class="social-link d-flex justify-content-center mt-3 mb-5">
-          <a href="">
+          <a href="https://github.com/OkekeNneamaka">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href=""> <i class="fa-brands fa-instagram"></i> </a
-          ><a href="">
+          <a href="https://www.linkedin.com/in/okekenneamaka">
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
+        <p class="text-center">
+          This project was coded by Nneamaka and it is
+          <a href="https://github.com/OkekeNneamaka/portfolio-project"
+            >open-sourced.</a
+          >
+        </p>
       </footer>
     </div>
   </body>

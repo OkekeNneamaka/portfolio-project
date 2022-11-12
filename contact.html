@@ -23,10 +23,29 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Portlio website</title>
+    <meta
+      name="description"
+      content="Nneamaka is Front-end engineer based in Nigeria. She creates user friendly and responsive websites."
+    />
+    <title>Front-end developer - Okeke Nneamaka</title>
   </head>
   <body>
     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <h2 class="d-none d-lg-block">OkekeNneamaka</h2>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li>
+            <a href="/about.html" title="About Nneamaka">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Nneamaka's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Nneamaka's contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
       <div class="p-5 m-5">
         <h1>let's get in-touch.</h1>
         <h3 class="mt-4">Email</h3>
@@ -42,6 +61,44 @@
           >
         </p>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together.</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-contact" title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:okekenneamaka09@gmail.com"
+            title="Email Nneamaka"
+            class="email-link"
+            >okekenneamaka09@gmail.com</a
+          >
+        </div>
+
+        <div class="social-link d-flex justify-content-center mt-3 mb-5">
+          <a href="https://github.com/OkekeNneamaka">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/okekenneamaka">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        <p class="text-center">
+          This project was coded by Nneamaka and it is
+          <a href="https://github.com/OkekeNneamaka/portfolio-project"
+            >open-sourced.</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
