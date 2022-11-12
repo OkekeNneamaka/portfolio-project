@@ -92,3 +92,32 @@ nav ul{
     font-size: 46px;
 }
 
+footer .email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+footer .email-link:hover{
+    color: blueviolet;
+}
+footer .social-link a{
+margin: 0 20px;
+color: blueviolet;
+background-color: #f9f7fe;
+padding: 10px 14px;
+font-size: 18px;
+border-radius: 50%;
+transition: all 100ms ease-in-out;
+}
+
+footer .social-link a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+footer .contact-box{
+    background-color: #f9f7fe;
+    padding: 30px 80px;
+    border-radius: 10px;
+}
